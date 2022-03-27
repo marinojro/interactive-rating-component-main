@@ -1,0 +1,71 @@
+body {
+    background: #141519;
+    color: white;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    background: #212832;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.imagestar {
+    background: #262E39;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.submit {
+    border-radius: 20px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+.attribution {
+    vertical-align: bottom;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
