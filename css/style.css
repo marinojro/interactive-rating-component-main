@@ -3,9 +3,9 @@ body {
     color: white;
 }
 
-.main {
+.container {
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,14 +17,14 @@ body {
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     background: #212832;
     border-radius: 20px;
     padding: 20px;
 }
 
-.imagestar {
+.image-star {
     background: #262E39;
     border-radius: 20px;
     font-size: 25px;
@@ -35,20 +35,35 @@ body {
     padding: 10px;
 }
 
-h1 {
+.text h1 {
     font-size: 20px;
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
 }
 
-p {
+.text p {
     font-size: 13px;
     font-family: 'Overpass', sans-serif;
 }
 
+.notes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number {
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    color: #141519;
+}
+
 .submit {
     border-radius: 20px;
-    background-color: #f4511e;
+    background-color: #FB7713;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -58,7 +73,11 @@ p {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-  }
+}
+
+footer {
+    height: 5vh;
+}
 
 .attribution {
     vertical-align: bottom;
