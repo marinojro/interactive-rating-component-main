@@ -1,6 +1,10 @@
+* {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
 body {
     background: #141519;
-    color: white;
 }
 
 .container {
@@ -26,24 +30,21 @@ body {
 
 .image-star {
     background: #262E39;
-    border-radius: 20px;
-    font-size: 25px;
     text-align: center;
-    margin-right: 10px;
     border-radius: 50%;
-    display: inline-block;
     padding: 10px;
 }
 
 .text h1 {
     font-size: 20px;
-    font-family: 'Overpass', sans-serif;
     font-weight: 400;
 }
 
 .text p {
-    font-size: 13px;
-    font-family: 'Overpass', sans-serif;
+    font-size: 11px;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.6em;
+    
 }
 
 .notes {
@@ -54,25 +55,33 @@ body {
     justify-content: space-between;
 }
 
-.number {
-    width: 2rem;
-    height: 2rem;
-    background: white;
-    color: #141519;
+.selector {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: #262F38;
+    color: hsl(216, 12%, 54%);
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;   
 }
 
 .submit {
     border-radius: 20px;
-    background-color: #FB7713;
+    background-color: hsl(25, 97%, 53%);
     border: none;
     color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px;
-    width: 100%;
-    transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px;
+    width: 100%;
+    margin-top: 0.8rem;
 }
 
 footer {
